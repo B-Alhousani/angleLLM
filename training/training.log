@@ -1,0 +1,800 @@
+/usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+W0103 14:14:37.751000 1996628 torch/distributed/run.py:803] 
+W0103 14:14:37.751000 1996628 torch/distributed/run.py:803] *****************************************
+W0103 14:14:37.751000 1996628 torch/distributed/run.py:803] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0103 14:14:37.751000 1996628 torch/distributed/run.py:803] *****************************************
+/usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+================================================================================
+DEPTHLM TRAINING CONFIGURATION
+================================================================================
+Model: /mnt/dgx_lab/models/Pixtral-12B-HF
+Data: /mnt/dgx_lab/datasets/DepthLMApproach
+Output: /mnt/dgx_lab/models/trained_depthlm
+Batch size per GPU: 1
+Gradient accumulation: 48
+Effective batch size: 384
+Image size: 384x384
+Available GPUs: 8
+================================================================================
+
+🔄 Loading training data...
+📂 Found 1 JSONL files in nu/
+Loading nu:   0%|                                                                                                                                                                 | 0/1 [00:00<?, ?it/s]Loading nu: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  3.47it/s]Loading nu: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  3.45it/s]
+📂 Found 1 JSONL files in nyu/
+Loading nyu:   0%|                                                                                                                                                                | 0/1 [00:00<?, ?it/s]================================================================================
+DEPTHLM TRAINING CONFIGURATION
+================================================================================
+Model: /mnt/dgx_lab/models/Pixtral-12B-HF
+Data: /mnt/dgx_lab/datasets/DepthLMApproach
+Output: /mnt/dgx_lab/models/trained_depthlm
+Batch size per GPU: 1
+Gradient accumulation: 48
+Effective batch size: 384
+Image size: 384x384
+Available GPUs: 8
+================================================================================
+
+🔄 Loading training data...
+================================================================================
+DEPTHLM TRAINING CONFIGURATION
+================================================================================
+================================================================================
+DEPTHLM TRAINING CONFIGURATION
+================================================================================
+Model: /mnt/dgx_lab/models/Pixtral-12B-HF
+Data: /mnt/dgx_lab/datasets/DepthLMApproach
+Output: /mnt/dgx_lab/models/trained_depthlm
+Batch size per GPU: 1
+Gradient accumulation: 48
+Effective batch size: 384
+Image size: 384x384
+Available GPUs: 8
+================================================================================
+
+🔄 Loading training data...
+Model: /mnt/dgx_lab/models/Pixtral-12B-HF
+Data: /mnt/dgx_lab/datasets/DepthLMApproach
+Output: /mnt/dgx_lab/models/trained_depthlm
+Batch size per GPU: 1
+Gradient accumulation: 48
+Effective batch size: 384
+Image size: 384x384
+Available GPUs: 8
+================================================================================
+
+🔄 Loading training data...
+📂 Found 1 JSONL files in nu/📂 Found 1 JSONL files in nu/
+📂 Found 1 JSONL files in nu/================================================================================
+DEPTHLM TRAINING CONFIGURATION
+================================================================================
+Model: /mnt/dgx_lab/models/Pixtral-12B-HF
+Data: /mnt/dgx_lab/datasets/DepthLMApproach
+Output: /mnt/dgx_lab/models/trained_depthlm
+Batch size per GPU: 1
+Gradient accumulation: 48
+Effective batch size: 384
+Image size: 384x384
+Available GPUs: 8
+================================================================================
+
+🔄 Loading training data...
+
+Loading nu:   0%|                                                                                                                                                                 | 0/1 [00:00<?, ?it/s]
+Loading nu:   0%|                                                                                                                                                                 | 0/1 [00:00<?, ?it/s]Loading nu:   0%|                                                                                                                                                                 | 0/1 [00:00<?, ?it/s]================================================================================
+DEPTHLM TRAINING CONFIGURATION
+================================================================================
+Model: /mnt/dgx_lab/models/Pixtral-12B-HF
+Data: /mnt/dgx_lab/datasets/DepthLMApproach
+Output: /mnt/dgx_lab/models/trained_depthlm
+Batch size per GPU: 1
+Gradient accumulation: 48
+================================================================================
+DEPTHLM TRAINING CONFIGURATION
+================================================================================
+Model: /mnt/dgx_lab/models/Pixtral-12B-HF
+Data: /mnt/dgx_lab/datasets/DepthLMApproach
+Output: /mnt/dgx_lab/models/trained_depthlm
+Batch size per GPU: 1
+Gradient accumulation: 48
+Effective batch size: 384
+Image size: 384x384
+Available GPUs: 8
+================================================================================
+
+🔄 Loading training data...
+Effective batch size: 384
+Image size: 384x384
+Available GPUs: 8
+================================================================================
+
+🔄 Loading training data...📂 Found 1 JSONL files in nu/
+================================================================================
+DEPTHLM TRAINING CONFIGURATION
+================================================================================
+Model: /mnt/dgx_lab/models/Pixtral-12B-HF
+Data: /mnt/dgx_lab/datasets/DepthLMApproach
+Output: /mnt/dgx_lab/models/trained_depthlm
+Batch size per GPU: 1
+Gradient accumulation: 48
+Effective batch size: 384
+Image size: 384x384
+
+Available GPUs: 8
+================================================================================
+
+🔄 Loading training data...
+Loading nu:   0%|                                                                                                                                                                 | 0/1 [00:00<?, ?it/s]📂 Found 1 JSONL files in nu/📂 Found 1 JSONL files in nu/
+
+📂 Found 1 JSONL files in nu/Loading nu:   0%|                                                                                                                                                                 | 0/1 [00:00<?, ?it/s]Loading nu:   0%|                                                                                                                                                                 | 0/1 [00:00<?, ?it/s]
+Loading nu:   0%|                                                                                                                                                                 | 0/1 [00:00<?, ?it/s]Loading nu: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  3.09it/s]Loading nu: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  2.99it/s]Loading nu: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  3.07it/s]
+Loading nu: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  2.92it/s]Loading nu: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  2.92it/s]
+Loading nu: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  2.87it/s]
+Loading nu: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  3.17it/s]Loading nu: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  3.02it/s]
+Loading nu: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  3.26it/s]Loading nu: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  3.17it/s]Loading nu: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  3.02it/s]
+Loading nu: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  3.04it/s]
+Loading nu: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  3.02it/s]Loading nu: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  3.01it/s]
+📂 Found 1 JSONL files in nyu/📂 Found 1 JSONL files in nyu/
+Loading nyu:   0%|                                                                                                                                                                | 0/1 [00:00<?, ?it/s]
+Loading nyu:   0%|                                                                                                                                                                | 0/1 [00:00<?, ?it/s]📂 Found 1 JSONL files in nyu/
+Loading nyu:   0%|                                                                                                                                                                | 0/1 [00:00<?, ?it/s]📂 Found 1 JSONL files in nyu/
+Loading nyu:   0%|                                                                                                                                                                | 0/1 [00:00<?, ?it/s]📂 Found 1 JSONL files in nyu/
+Loading nyu:   0%|                                                                                                                                                                | 0/1 [00:00<?, ?it/s]📂 Found 1 JSONL files in nyu/
+Loading nyu:   0%|                                                                                                                                                                | 0/1 [00:00<?, ?it/s]📂 Found 1 JSONL files in nyu/
+Loading nyu:   0%|                                                                                                                                                                | 0/1 [00:00<?, ?it/s]Loading nyu: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:03<00:00,  3.78s/it]Loading nyu: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:03<00:00,  3.78s/it]
+📂 Found 1 JSONL files in sun/
+Loading sun:   0%|                                                                                                                                                                | 0/1 [00:00<?, ?it/s]Loading nyu: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:03<00:00,  3.86s/it]Loading nyu: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:03<00:00,  3.88s/it]Loading nyu: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:03<00:00,  3.88s/it]
+Loading nyu: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:03<00:00,  3.87s/it]
+Loading nyu: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:03<00:00,  3.90s/it]Loading nyu: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:03<00:00,  3.90s/it]
+Loading nyu: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:03<00:00,  3.86s/it]Loading nyu: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:03<00:00,  3.88s/it]Loading nyu: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:03<00:00,  3.88s/it]
+Loading nyu: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:03<00:00,  3.86s/it]
+Loading nyu: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:03<00:00,  3.90s/it]Loading nyu: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:03<00:00,  3.90s/it]
+Loading nyu: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:03<00:00,  3.91s/it]Loading nyu: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:03<00:00,  3.91s/it]
+📂 Found 1 JSONL files in sun/📂 Found 1 JSONL files in sun/
+Loading sun:   0%|                                                                                                                                                                | 0/1 [00:00<?, ?it/s]
+Loading sun:   0%|                                                                                                                                                                | 0/1 [00:00<?, ?it/s]📂 Found 1 JSONL files in sun/
+Loading sun:   0%|                                                                                                                                                                | 0/1 [00:00<?, ?it/s]📂 Found 1 JSONL files in sun/📂 Found 1 JSONL files in sun/
+Loading sun:   0%|                                                                                                                                                                | 0/1 [00:00<?, ?it/s]
+Loading sun:   0%|                                                                                                                                                                | 0/1 [00:00<?, ?it/s]📂 Found 1 JSONL files in sun/
+Loading sun:   0%|                                                                                                                                                                | 0/1 [00:00<?, ?it/s]📂 Found 1 JSONL files in sun/
+Loading sun:   0%|                                                                                                                                                                | 0/1 [00:00<?, ?it/s]Loading sun: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:15<00:00, 15.97s/it]Loading sun: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:15<00:00, 15.98s/it]
+✅ Loaded 757,800 training samples
+
+📄 Example sample:
+{
+  "image": "/mnt/dgx_lab/datasets/DepthLMApproach/nu/000383_CAM_FRONT_image_p000_true.jpg",
+  "type": "true",
+  "ground_truth_depth": 18.886,
+  "prompt": "How far is the point indicated by the red arrow from the camera in meters? Output the thinking process in <think></think> and final answer in <answer></answer> tags (only the number without anything else)",
+  "label": "<think>The red arrow points to an object in the scene...</think><answer>18.89</answer>",
+  "answer": "The point is around 18.89 meters away from the camera."
+}
+
+🔄 Loading Pixtral-12B model and processor...
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+Loading sun: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:15<00:00, 15.93s/it]Loading sun: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:15<00:00, 15.95s/it]
+✅ Loaded 757,800 training samples
+
+📄 Example sample:
+{
+  "image": "/mnt/dgx_lab/datasets/DepthLMApproach/nu/000383_CAM_FRONT_image_p000_true.jpg",
+  "type": "true",
+  "ground_truth_depth": 18.886,
+  "prompt": "How far is the point indicated by the red arrow from the camera in meters? Output the thinking process in <think></think> and final answer in <answer></answer> tags (only the number without anything else)",
+  "label": "<think>The red arrow points to an object in the scene...</think><answer>18.89</answer>",
+  "answer": "The point is around 18.89 meters away from the camera."
+}
+
+🔄 Loading Pixtral-12B model and processor...
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+Loading sun: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:16<00:00, 16.06s/it]Loading sun: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:16<00:00, 16.06s/it]Loading sun: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:16<00:00, 16.08s/it]
+✅ Loaded 757,800 training samples
+
+📄 Example sample:
+{
+  "image": "/mnt/dgx_lab/datasets/DepthLMApproach/nu/000383_CAM_FRONT_image_p000_true.jpg",
+  "type": "true",
+  "ground_truth_depth": 18.886,
+  "prompt": "How far is the point indicated by the red arrow from the camera in meters? Output the thinking process in <think></think> and final answer in <answer></answer> tags (only the number without anything else)",
+  "label": "<think>The red arrow points to an object in the scene...</think><answer>18.89</answer>",
+  "answer": "The point is around 18.89 meters away from the camera."
+}
+
+🔄 Loading Pixtral-12B model and processor...
+Loading sun: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:16<00:00, 16.08s/it]
+✅ Loaded 757,800 training samples
+
+📄 Example sample:
+{
+  "image": "/mnt/dgx_lab/datasets/DepthLMApproach/nu/000383_CAM_FRONT_image_p000_true.jpg",
+  "type": "true",
+  "ground_truth_depth": 18.886,
+  "prompt": "How far is the point indicated by the red arrow from the camera in meters? Output the thinking process in <think></think> and final answer in <answer></answer> tags (only the number without anything else)",
+  "label": "<think>The red arrow points to an object in the scene...</think><answer>18.89</answer>",
+  "answer": "The point is around 18.89 meters away from the camera."
+}
+
+🔄 Loading Pixtral-12B model and processor...
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+Loading sun: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:16<00:00, 16.07s/it]Loading sun: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:16<00:00, 16.10s/it]Loading sun: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:16<00:00, 16.11s/it]
+✅ Loaded 757,800 training samples
+
+📄 Example sample:
+{
+  "image": "/mnt/dgx_lab/datasets/DepthLMApproach/nu/000383_CAM_FRONT_image_p000_true.jpg",
+  "type": "true",
+  "ground_truth_depth": 18.886,
+  "prompt": "How far is the point indicated by the red arrow from the camera in meters? Output the thinking process in <think></think> and final answer in <answer></answer> tags (only the number without anything else)",
+  "label": "<think>The red arrow points to an object in the scene...</think><answer>18.89</answer>",
+  "answer": "The point is around 18.89 meters away from the camera."
+}
+
+🔄 Loading Pixtral-12B model and processor...
+Loading sun: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:16<00:00, 16.09s/it]
+✅ Loaded 757,800 training samples
+
+📄 Example sample:
+{
+  "image": "/mnt/dgx_lab/datasets/DepthLMApproach/nu/000383_CAM_FRONT_image_p000_true.jpg",
+  "type": "true",
+  "ground_truth_depth": 18.886,
+  "prompt": "How far is the point indicated by the red arrow from the camera in meters? Output the thinking process in <think></think> and final answer in <answer></answer> tags (only the number without anything else)",
+  "label": "<think>The red arrow points to an object in the scene...</think><answer>18.89</answer>",
+  "answer": "The point is around 18.89 meters away from the camera."
+}
+
+🔄 Loading Pixtral-12B model and processor...
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+Loading sun: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:16<00:00, 16.14s/it]Loading sun: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:16<00:00, 16.15s/it]
+✅ Loaded 757,800 training samples
+
+📄 Example sample:
+{
+  "image": "/mnt/dgx_lab/datasets/DepthLMApproach/nu/000383_CAM_FRONT_image_p000_true.jpg",
+  "type": "true",
+  "ground_truth_depth": 18.886,
+  "prompt": "How far is the point indicated by the red arrow from the camera in meters? Output the thinking process in <think></think> and final answer in <answer></answer> tags (only the number without anything else)",
+  "label": "<think>The red arrow points to an object in the scene...</think><answer>18.89</answer>",
+  "answer": "The point is around 18.89 meters away from the camera."
+}
+
+🔄 Loading Pixtral-12B model and processor...
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+Loading sun: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:16<00:00, 16.22s/it]Loading sun: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:16<00:00, 16.22s/it]
+✅ Loaded 757,800 training samples
+
+📄 Example sample:
+{
+  "image": "/mnt/dgx_lab/datasets/DepthLMApproach/nu/000383_CAM_FRONT_image_p000_true.jpg",
+  "type": "true",
+  "ground_truth_depth": 18.886,
+  "prompt": "How far is the point indicated by the red arrow from the camera in meters? Output the thinking process in <think></think> and final answer in <answer></answer> tags (only the number without anything else)",
+  "label": "<think>The red arrow points to an object in the scene...</think><answer>18.89</answer>",
+  "answer": "The point is around 18.89 meters away from the camera."
+}
+
+🔄 Loading Pixtral-12B model and processor...
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+✅ Set pad_token to eos_token
+Loading model (this may take a few minutes)...
+`torch_dtype` is deprecated! Use `dtype` instead!
+✅ Set pad_token to eos_token✅ Set pad_token to eos_token
+Loading model (this may take a few minutes)...
+`torch_dtype` is deprecated! Use `dtype` instead!
+
+Loading model (this may take a few minutes)...
+✅ Set pad_token to eos_token`torch_dtype` is deprecated! Use `dtype` instead!
+
+Loading model (this may take a few minutes)...
+`torch_dtype` is deprecated! Use `dtype` instead!
+✅ Set pad_token to eos_tokenLoading checkpoint shards:   0%|                                                                                                                                                  | 0/6 [00:00<?, ?it/s]
+Loading model (this may take a few minutes)...
+✅ Set pad_token to eos_token`torch_dtype` is deprecated! Use `dtype` instead!
+
+Loading model (this may take a few minutes)...
+`torch_dtype` is deprecated! Use `dtype` instead!
+✅ Set pad_token to eos_token
+Loading model (this may take a few minutes)...
+`torch_dtype` is deprecated! Use `dtype` instead!
+✅ Set pad_token to eos_token
+Loading model (this may take a few minutes)...
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:  17%|███████████████████████                                                                                                                   | 1/6 [00:00<00:01,  3.79it/s]Loading checkpoint shards:  50%|█████████████████████████████████████████████████████████████████████                                                                     | 3/6 [00:00<00:00,  8.33it/s]Loading checkpoint shards:  83%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████                       | 5/6 [00:00<00:00, 10.66it/s]Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:00<00:00, 10.84it/s]
+✅ Model loaded
+Model dtype: torch.bfloat16
+Model parameters: 12.68B
+
+🔄 Creating dataset...
+✅ Dataset created with 757,800 samples
+
+Loading checkpoint shards:   0%|                                                                                                                                                  | 0/6 [00:00<?, ?it/s]Loading checkpoint shards:   0%|                                                                                                                                                  | 0/6 [00:00<?, ?it/s]Loading checkpoint shards:   0%|                                                                                                                                                  | 0/6 [00:00<?, ?it/s]Loading checkpoint shards:   0%|                                                                                                                                                  | 0/6 [00:00<?, ?it/s]Loading checkpoint shards:   0%|                                                                                                                                                  | 0/6 [00:00<?, ?it/s]Loading checkpoint shards:   0%|                                                                                                                                                  | 0/6 [00:00<?, ?it/s]Loading checkpoint shards:  17%|███████████████████████                                                                                                                   | 1/6 [00:00<00:01,  3.97it/s]Loading checkpoint shards:  17%|███████████████████████                                                                                                                   | 1/6 [00:00<00:01,  4.02it/s]Loading checkpoint shards:  17%|███████████████████████                                                                                                                   | 1/6 [00:00<00:01,  3.86it/s]Loading checkpoint shards:  17%|███████████████████████                                                                                                                   | 1/6 [00:00<00:01,  4.35it/s]Loading checkpoint shards:   0%|                                                                                                                                                  | 0/6 [00:00<?, ?it/s]Loading checkpoint shards:  67%|████████████████████████████████████████████████████████████████████████████████████████████                                              | 4/6 [00:00<00:00, 10.96it/s]Loading checkpoint shards:  50%|█████████████████████████████████████████████████████████████████████                                                                     | 3/6 [00:00<00:00,  9.32it/s]Loading checkpoint shards:  50%|█████████████████████████████████████████████████████████████████████                                                                     | 3/6 [00:00<00:00,  8.78it/s]Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:00<00:00, 12.75it/s]
+Loading checkpoint shards:  50%|█████████████████████████████████████████████████████████████████████                                                                     | 3/6 [00:00<00:00,  9.60it/s]Loading checkpoint shards:  17%|███████████████████████                                                                                                                   | 1/6 [00:00<00:01,  4.34it/s]Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:00<00:00, 15.33it/s]Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:00<00:00, 12.34it/s]
+Loading checkpoint shards:  17%|███████████████████████                                                                                                                   | 1/6 [00:00<00:01,  3.42it/s]Loading checkpoint shards:  83%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████                       | 5/6 [00:00<00:00, 11.41it/s]Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:00<00:00, 11.37it/s]
+Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:00<00:00, 15.23it/s]Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:00<00:00, 12.63it/s]
+Loading checkpoint shards:  50%|█████████████████████████████████████████████████████████████████████                                                                     | 3/6 [00:00<00:00,  9.46it/s]Loading checkpoint shards:  17%|███████████████████████                                                                                                                   | 1/6 [00:00<00:01,  3.63it/s]Loading checkpoint shards:  50%|█████████████████████████████████████████████████████████████████████                                                                     | 3/6 [00:00<00:00,  8.27it/s]Loading checkpoint shards:  83%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████                       | 5/6 [00:00<00:00, 12.59it/s]Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:00<00:00, 12.72it/s]
+✅ Model loaded
+Model dtype: torch.bfloat16
+Model parameters: 12.68B
+
+🔄 Creating dataset...
+✅ Dataset created with 757,800 samples
+
+Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:00<00:00, 14.59it/s]Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:00<00:00, 11.51it/s]
+Loading checkpoint shards:  67%|████████████████████████████████████████████████████████████████████████████████████████████                                              | 4/6 [00:00<00:00, 10.61it/s]✅ Model loaded
+Model dtype: torch.bfloat16
+Model parameters: 12.68B
+
+🔄 Creating dataset...
+✅ Dataset created with 757,800 samples
+
+✅ Model loaded
+Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:00<00:00, 12.98it/s]
+Model dtype: torch.bfloat16
+✅ Model loaded
+Model dtype: torch.bfloat16
+Model parameters: 12.68B
+
+🔄 Creating dataset...
+✅ Dataset created with 757,800 samples
+
+Model parameters: 12.68B
+
+🔄 Creating dataset...
+✅ Dataset created with 757,800 samples
+
+✅ Model loaded
+Model dtype: torch.bfloat16
+Model parameters: 12.68B
+
+🔄 Creating dataset...
+✅ Dataset created with 757,800 samples
+
+✅ Model loaded
+Model dtype: torch.bfloat16
+Model parameters: 12.68B
+
+🔄 Creating dataset...
+✅ Dataset created with 757,800 samples
+
+✅ Model loaded
+Model dtype: torch.bfloat16
+Model parameters: 12.68B
+
+🔄 Creating dataset...
+✅ Dataset created with 757,800 samples
+
+[Gloo] Rank 4 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+[Gloo] Rank 6 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+[Gloo] Rank 0 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+[Gloo] Rank 1 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+[Gloo] Rank 2 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+[Gloo] Rank 3 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+[Gloo] Rank 7 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+[Gloo] Rank 5 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+✅ Training arguments configured
+
+/mnt/dgx_lab/training/train_depthlm.py:320: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+✅ Training arguments configured
+
+/mnt/dgx_lab/training/train_depthlm.py:320: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+✅ Training arguments configured
+
+/mnt/dgx_lab/training/train_depthlm.py:320: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+✅ Training arguments configured
+
+/mnt/dgx_lab/training/train_depthlm.py:320: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+✅ Training arguments configured
+
+/mnt/dgx_lab/training/train_depthlm.py:320: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+✅ Training arguments configured
+
+/mnt/dgx_lab/training/train_depthlm.py:320: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+✅ Training arguments configured
+
+/mnt/dgx_lab/training/train_depthlm.py:320: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+✅ Training arguments configured
+
+/mnt/dgx_lab/training/train_depthlm.py:320: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+✅ Trainer created
+
+================================================================================
+🚀 STARTING TRAINING
+================================================================================
+Total samples: 757,800
+Batch size per GPU: 1
+Gradient accumulation steps: 48
+Number of GPUs: 8
+Effective batch size: 384
+Total steps: ~3,946
+Epochs: 2
+================================================================================
+
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'eos_token_id': 2, 'bos_token_id': 1, 'pad_token_id': 2}.
+✅ Trainer created
+✅ Trainer created
+
+================================================================================
+🚀 STARTING TRAINING
+
+================================================================================================================================================================
+
+Total samples: 757,800🚀 STARTING TRAINING
+
+Batch size per GPU: 1================================================================================
+
+Total samples: 757,800Gradient accumulation steps: 48
+
+Number of GPUs: 8Batch size per GPU: 1
+
+Gradient accumulation steps: 48Effective batch size: 384
+
+Number of GPUs: 8Total steps: ~3,946
+
+Effective batch size: 384Epochs: 2
+
+Total steps: ~3,946================================================================================
+
+
+Epochs: 2The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'eos_token_id': 2, 'bos_token_id': 1, 'pad_token_id': 2}.
+
+================================================================================
+
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'eos_token_id': 2, 'bos_token_id': 1, 'pad_token_id': 2}.
+✅ Trainer created
+✅ Trainer created
+
+================================================================================
+🚀 STARTING TRAINING
+================================================================================
+Total samples: 757,800
+Batch size per GPU: 1
+Gradient accumulation steps: 48
+Number of GPUs: 8
+Effective batch size: 384
+Total steps: ~3,946
+Epochs: 2
+================================================================================
+
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'eos_token_id': 2, 'bos_token_id': 1, 'pad_token_id': 2}.
+
+================================================================================
+🚀 STARTING TRAINING
+================================================================================
+Total samples: 757,800
+Batch size per GPU: 1
+Gradient accumulation steps: 48
+Number of GPUs: 8
+Effective batch size: 384
+Total steps: ~3,946
+Epochs: 2
+================================================================================
+
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'eos_token_id': 2, 'bos_token_id': 1, 'pad_token_id': 2}.
+✅ Trainer created
+
+================================================================================
+🚀 STARTING TRAINING
+================================================================================
+Total samples: 757,800
+Batch size per GPU: 1
+Gradient accumulation steps: 48
+Number of GPUs: 8
+Effective batch size: 384
+Total steps: ~3,946
+Epochs: 2
+================================================================================
+
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'eos_token_id': 2, 'bos_token_id': 1, 'pad_token_id': 2}.
+✅ Trainer created
+
+================================================================================
+🚀 STARTING TRAINING
+================================================================================
+Total samples: 757,800
+Batch size per GPU: 1
+Gradient accumulation steps: 48
+Number of GPUs: 8
+Effective batch size: 384
+Total steps: ~3,946
+Epochs: 2
+================================================================================
+
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'eos_token_id': 2, 'bos_token_id': 1, 'pad_token_id': 2}.
+✅ Trainer created
+
+================================================================================
+🚀 STARTING TRAINING
+================================================================================
+Total samples: 757,800
+Batch size per GPU: 1
+Gradient accumulation steps: 48
+Number of GPUs: 8
+Effective batch size: 384
+Total steps: ~3,946
+Epochs: 2
+================================================================================
+
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'eos_token_id': 2, 'bos_token_id': 1, 'pad_token_id': 2}.
+  0%|                                                                                                                                                                          | 0/3948 [00:00<?, ?it/s]`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+[rank4]: Traceback (most recent call last):
+[rank4]:   File "/mnt/dgx_lab/training/train_depthlm.py", line 348, in <module>
+[rank4]:     trainer.train()
+[rank4]:   File "/network/rit/home/balhousani_alhussien/.local/lib/python3.12/site-packages/transformers/trainer.py", line 2325, in train
+[rank4]:     return inner_training_loop(
+[rank4]:            ^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/network/rit/home/balhousani_alhussien/.local/lib/python3.12/site-packages/transformers/trainer.py", line 2740, in _inner_training_loop
+[rank4]:     self.optimizer.step()
+[rank4]:   File "/network/rit/home/balhousani_alhussien/.local/lib/python3.12/site-packages/accelerate/optimizer.py", line 179, in step
+[rank4]:     self.optimizer.step(closure)
+[rank4]:   File "/usr/local/lib/python3.12/dist-packages/torch/optim/lr_scheduler.py", line 133, in wrapper
+[rank4]:     return func.__get__(opt, opt.__class__)(*args, **kwargs)
+[rank4]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/usr/local/lib/python3.12/dist-packages/torch/optim/optimizer.py", line 516, in wrapper
+[rank4]:     out = func(*args, **kwargs)
+[rank4]:           ^^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/usr/local/lib/python3.12/dist-packages/torch/optim/optimizer.py", line 81, in _use_grad
+[rank4]:     ret = func(*args, **kwargs)
+[rank4]:           ^^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/usr/local/lib/python3.12/dist-packages/torch/optim/adam.py", line 237, in step
+[rank4]:     has_complex = self._init_group(
+[rank4]:                   ^^^^^^^^^^^^^^^^^
+[rank4]:   File "/usr/local/lib/python3.12/dist-packages/torch/optim/adam.py", line 181, in _init_group
+[rank4]:     state["exp_avg_sq"] = torch.zeros_like(
+[rank4]:                           ^^^^^^^^^^^^^^^^^
+[rank4]: torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 140.00 MiB. GPU 4 has a total capacity of 79.25 GiB of which 82.94 MiB is free. Including non-PyTorch memory, this process has 79.16 GiB memory in use. Of the allocated memory 78.02 GiB is allocated by PyTorch, and 24.65 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[rank7]: Traceback (most recent call last):
+[rank7]:   File "/mnt/dgx_lab/training/train_depthlm.py", line 348, in <module>
+[rank7]:     trainer.train()
+[rank7]:   File "/network/rit/home/balhousani_alhussien/.local/lib/python3.12/site-packages/transformers/trainer.py", line 2325, in train
+[rank7]:     return inner_training_loop(
+[rank7]:            ^^^^^^^^^^^^^^^^^^^^
+[rank7]:   File "/network/rit/home/balhousani_alhussien/.local/lib/python3.12/site-packages/transformers/trainer.py", line 2740, in _inner_training_loop
+[rank7]:     self.optimizer.step()
+[rank7]:   File "/network/rit/home/balhousani_alhussien/.local/lib/python3.12/site-packages/accelerate/optimizer.py", line 179, in step
+[rank7]:     self.optimizer.step(closure)
+[rank7]:   File "/usr/local/lib/python3.12/dist-packages/torch/optim/lr_scheduler.py", line 133, in wrapper
+[rank7]:     return func.__get__(opt, opt.__class__)(*args, **kwargs)
+[rank7]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank7]:   File "/usr/local/lib/python3.12/dist-packages/torch/optim/optimizer.py", line 516, in wrapper
+[rank7]:     out = func(*args, **kwargs)
+[rank7]:           ^^^^^^^^^^^^^^^^^^^^^
+[rank7]:   File "/usr/local/lib/python3.12/dist-packages/torch/optim/optimizer.py", line 81, in _use_grad
+[rank7]:     ret = func(*args, **kwargs)
+[rank7]:           ^^^^^^^^^^^^^^^^^^^^^
+[rank7]:   File "/usr/local/lib/python3.12/dist-packages/torch/optim/adam.py", line 237, in step
+[rank7]:     has_complex = self._init_group(
+[rank7]:                   ^^^^^^^^^^^^^^^^^
+[rank7]:   File "/usr/local/lib/python3.12/dist-packages/torch/optim/adam.py", line 181, in _init_group
+[rank7]:     state["exp_avg_sq"] = torch.zeros_like(
+[rank7]:                           ^^^^^^^^^^^^^^^^^
+[rank7]: torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 140.00 MiB. GPU 7 has a total capacity of 79.25 GiB of which 82.94 MiB is free. Including non-PyTorch memory, this process has 79.16 GiB memory in use. Of the allocated memory 78.02 GiB is allocated by PyTorch, and 24.65 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[rank5]: Traceback (most recent call last):
+[rank5]:   File "/mnt/dgx_lab/training/train_depthlm.py", line 348, in <module>
+[rank5]:     trainer.train()
+[rank5]:   File "/network/rit/home/balhousani_alhussien/.local/lib/python3.12/site-packages/transformers/trainer.py", line 2325, in train
+[rank5]:     return inner_training_loop(
+[rank5]:            ^^^^^^^^^^^^^^^^^^^^
+[rank5]:   File "/network/rit/home/balhousani_alhussien/.local/lib/python3.12/site-packages/transformers/trainer.py", line 2740, in _inner_training_loop
+[rank5]:     self.optimizer.step()
+[rank5]:   File "/network/rit/home/balhousani_alhussien/.local/lib/python3.12/site-packages/accelerate/optimizer.py", line 179, in step
+[rank5]:     self.optimizer.step(closure)
+[rank5]:   File "/usr/local/lib/python3.12/dist-packages/torch/optim/lr_scheduler.py", line 133, in wrapper
+[rank5]:     return func.__get__(opt, opt.__class__)(*args, **kwargs)
+[rank5]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank5]:   File "/usr/local/lib/python3.12/dist-packages/torch/optim/optimizer.py", line 516, in wrapper
+[rank5]:     out = func(*args, **kwargs)
+[rank5]:           ^^^^^^^^^^^^^^^^^^^^^
+[rank5]:   File "/usr/local/lib/python3.12/dist-packages/torch/optim/optimizer.py", line 81, in _use_grad
+[rank5]:     ret = func(*args, **kwargs)
+[rank5]:           ^^^^^^^^^^^^^^^^^^^^^
+[rank5]:   File "/usr/local/lib/python3.12/dist-packages/torch/optim/adam.py", line 237, in step
+[rank5]:     has_complex = self._init_group(
+[rank5]:                   ^^^^^^^^^^^^^^^^^
+[rank5]:   File "/usr/local/lib/python3.12/dist-packages/torch/optim/adam.py", line 181, in _init_group
+[rank5]:     state["exp_avg_sq"] = torch.zeros_like(
+[rank5]:                           ^^^^^^^^^^^^^^^^^
+[rank5]: torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 140.00 MiB. GPU 5 has a total capacity of 79.25 GiB of which 88.94 MiB is free. Including non-PyTorch memory, this process has 79.16 GiB memory in use. Of the allocated memory 78.03 GiB is allocated by PyTorch, and 17.40 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[rank1]: Traceback (most recent call last):
+[rank1]:   File "/mnt/dgx_lab/training/train_depthlm.py", line 348, in <module>
+[rank1]:     trainer.train()
+[rank1]:   File "/network/rit/home/balhousani_alhussien/.local/lib/python3.12/site-packages/transformers/trainer.py", line 2325, in train
+[rank1]:     return inner_training_loop(
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/network/rit/home/balhousani_alhussien/.local/lib/python3.12/site-packages/transformers/trainer.py", line 2740, in _inner_training_loop
+[rank1]:     self.optimizer.step()
+[rank1]:   File "/network/rit/home/balhousani_alhussien/.local/lib/python3.12/site-packages/accelerate/optimizer.py", line 179, in step
+[rank1]:     self.optimizer.step(closure)
+[rank1]:   File "/usr/local/lib/python3.12/dist-packages/torch/optim/lr_scheduler.py", line 133, in wrapper
+[rank1]:     return func.__get__(opt, opt.__class__)(*args, **kwargs)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/usr/local/lib/python3.12/dist-packages/torch/optim/optimizer.py", line 516, in wrapper
+[rank1]:     out = func(*args, **kwargs)
+[rank1]:           ^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/usr/local/lib/python3.12/dist-packages/torch/optim/optimizer.py", line 81, in _use_grad
+[rank1]:     ret = func(*args, **kwargs)
+[rank1]:           ^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/usr/local/lib/python3.12/dist-packages/torch/optim/adam.py", line 237, in step
+[rank1]:     has_complex = self._init_group(
+[rank1]:                   ^^^^^^^^^^^^^^^^^
+[rank1]:   File "/usr/local/lib/python3.12/dist-packages/torch/optim/adam.py", line 181, in _init_group
+[rank1]:     state["exp_avg_sq"] = torch.zeros_like(
+[rank1]:                           ^^^^^^^^^^^^^^^^^
+[rank1]: torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 140.00 MiB. GPU 1 has a total capacity of 79.25 GiB of which 88.94 MiB is free. Including non-PyTorch memory, this process has 79.16 GiB memory in use. Of the allocated memory 78.03 GiB is allocated by PyTorch, and 17.40 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/mnt/dgx_lab/training/train_depthlm.py", line 348, in <module>
+[rank0]:     trainer.train()
+[rank0]:   File "/network/rit/home/balhousani_alhussien/.local/lib/python3.12/site-packages/transformers/trainer.py", line 2325, in train
+[rank0]:     return inner_training_loop(
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/network/rit/home/balhousani_alhussien/.local/lib/python3.12/site-packages/transformers/trainer.py", line 2740, in _inner_training_loop
+[rank0]:     self.optimizer.step()
+[rank0]:   File "/network/rit/home/balhousani_alhussien/.local/lib/python3.12/site-packages/accelerate/optimizer.py", line 179, in step
+[rank0]:     self.optimizer.step(closure)
+[rank0]:   File "/usr/local/lib/python3.12/dist-packages/torch/optim/lr_scheduler.py", line 133, in wrapper
+[rank0]:     return func.__get__(opt, opt.__class__)(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/usr/local/lib/python3.12/dist-packages/torch/optim/optimizer.py", line 516, in wrapper
+[rank0]:     out = func(*args, **kwargs)
+[rank0]:           ^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/usr/local/lib/python3.12/dist-packages/torch/optim/optimizer.py", line 81, in _use_grad
+[rank0]:     ret = func(*args, **kwargs)
+[rank0]:           ^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/usr/local/lib/python3.12/dist-packages/torch/optim/adam.py", line 237, in step
+[rank0]:     has_complex = self._init_group(
+[rank0]:                   ^^^^^^^^^^^^^^^^^
+[rank0]:   File "/usr/local/lib/python3.12/dist-packages/torch/optim/adam.py", line 181, in _init_group
+[rank0]:     state["exp_avg_sq"] = torch.zeros_like(
+[rank0]:                           ^^^^^^^^^^^^^^^^^
+[rank0]: torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 140.00 MiB. GPU 0 has a total capacity of 79.25 GiB of which 82.94 MiB is free. Including non-PyTorch memory, this process has 79.16 GiB memory in use. Of the allocated memory 78.02 GiB is allocated by PyTorch, and 24.65 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[rank3]: Traceback (most recent call last):
+[rank3]:   File "/mnt/dgx_lab/training/train_depthlm.py", line 348, in <module>
+[rank3]:     trainer.train()
+[rank3]:   File "/network/rit/home/balhousani_alhussien/.local/lib/python3.12/site-packages/transformers/trainer.py", line 2325, in train
+[rank3]:     return inner_training_loop(
+[rank3]:            ^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/network/rit/home/balhousani_alhussien/.local/lib/python3.12/site-packages/transformers/trainer.py", line 2740, in _inner_training_loop
+[rank3]:     self.optimizer.step()
+[rank3]:   File "/network/rit/home/balhousani_alhussien/.local/lib/python3.12/site-packages/accelerate/optimizer.py", line 179, in step
+[rank3]:     self.optimizer.step(closure)
+[rank3]:   File "/usr/local/lib/python3.12/dist-packages/torch/optim/lr_scheduler.py", line 133, in wrapper
+[rank3]:     return func.__get__(opt, opt.__class__)(*args, **kwargs)
+[rank3]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/usr/local/lib/python3.12/dist-packages/torch/optim/optimizer.py", line 516, in wrapper
+[rank3]:     out = func(*args, **kwargs)
+[rank3]:           ^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/usr/local/lib/python3.12/dist-packages/torch/optim/optimizer.py", line 81, in _use_grad
+[rank3]:     ret = func(*args, **kwargs)
+[rank3]:           ^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/usr/local/lib/python3.12/dist-packages/torch/optim/adam.py", line 237, in step
+[rank3]:     has_complex = self._init_group(
+[rank3]:                   ^^^^^^^^^^^^^^^^^
+[rank3]:   File "/usr/local/lib/python3.12/dist-packages/torch/optim/adam.py", line 181, in _init_group
+[rank3]:     state["exp_avg_sq"] = torch.zeros_like(
+[rank3]:                           ^^^^^^^^^^^^^^^^^
+[rank3]: torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 140.00 MiB. GPU 3 has a total capacity of 79.25 GiB of which 82.94 MiB is free. Including non-PyTorch memory, this process has 79.16 GiB memory in use. Of the allocated memory 78.02 GiB is allocated by PyTorch, and 24.65 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[rank2]: Traceback (most recent call last):
+[rank2]:   File "/mnt/dgx_lab/training/train_depthlm.py", line 348, in <module>
+[rank2]:     trainer.train()
+[rank2]:   File "/network/rit/home/balhousani_alhussien/.local/lib/python3.12/site-packages/transformers/trainer.py", line 2325, in train
+[rank2]:     return inner_training_loop(
+[rank2]:            ^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/network/rit/home/balhousani_alhussien/.local/lib/python3.12/site-packages/transformers/trainer.py", line 2740, in _inner_training_loop
+[rank2]:     self.optimizer.step()
+[rank2]:   File "/network/rit/home/balhousani_alhussien/.local/lib/python3.12/site-packages/accelerate/optimizer.py", line 179, in step
+[rank2]:     self.optimizer.step(closure)
+[rank2]:   File "/usr/local/lib/python3.12/dist-packages/torch/optim/lr_scheduler.py", line 133, in wrapper
+[rank2]:     return func.__get__(opt, opt.__class__)(*args, **kwargs)
+[rank2]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/usr/local/lib/python3.12/dist-packages/torch/optim/optimizer.py", line 516, in wrapper
+[rank2]:     out = func(*args, **kwargs)
+[rank2]:           ^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/usr/local/lib/python3.12/dist-packages/torch/optim/optimizer.py", line 81, in _use_grad
+[rank2]:     ret = func(*args, **kwargs)
+[rank2]:           ^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/usr/local/lib/python3.12/dist-packages/torch/optim/adam.py", line 237, in step
+[rank2]:     has_complex = self._init_group(
+[rank2]:                   ^^^^^^^^^^^^^^^^^
+[rank2]:   File "/usr/local/lib/python3.12/dist-packages/torch/optim/adam.py", line 181, in _init_group
+[rank2]:     state["exp_avg_sq"] = torch.zeros_like(
+[rank2]:                           ^^^^^^^^^^^^^^^^^
+[rank2]: torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 140.00 MiB. GPU 2 has a total capacity of 79.25 GiB of which 82.94 MiB is free. Including non-PyTorch memory, this process has 79.16 GiB memory in use. Of the allocated memory 78.02 GiB is allocated by PyTorch, and 24.65 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[rank6]: Traceback (most recent call last):
+[rank6]:   File "/mnt/dgx_lab/training/train_depthlm.py", line 348, in <module>
+[rank6]:     trainer.train()
+[rank6]:   File "/network/rit/home/balhousani_alhussien/.local/lib/python3.12/site-packages/transformers/trainer.py", line 2325, in train
+[rank6]:     return inner_training_loop(
+[rank6]:            ^^^^^^^^^^^^^^^^^^^^
+[rank6]:   File "/network/rit/home/balhousani_alhussien/.local/lib/python3.12/site-packages/transformers/trainer.py", line 2740, in _inner_training_loop
+[rank6]:     self.optimizer.step()
+[rank6]:   File "/network/rit/home/balhousani_alhussien/.local/lib/python3.12/site-packages/accelerate/optimizer.py", line 179, in step
+[rank6]:     self.optimizer.step(closure)
+[rank6]:   File "/usr/local/lib/python3.12/dist-packages/torch/optim/lr_scheduler.py", line 133, in wrapper
+[rank6]:     return func.__get__(opt, opt.__class__)(*args, **kwargs)
+[rank6]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank6]:   File "/usr/local/lib/python3.12/dist-packages/torch/optim/optimizer.py", line 516, in wrapper
+[rank6]:     out = func(*args, **kwargs)
+[rank6]:           ^^^^^^^^^^^^^^^^^^^^^
+[rank6]:   File "/usr/local/lib/python3.12/dist-packages/torch/optim/optimizer.py", line 81, in _use_grad
+[rank6]:     ret = func(*args, **kwargs)
+[rank6]:           ^^^^^^^^^^^^^^^^^^^^^
+[rank6]:   File "/usr/local/lib/python3.12/dist-packages/torch/optim/adam.py", line 237, in step
+[rank6]:     has_complex = self._init_group(
+[rank6]:                   ^^^^^^^^^^^^^^^^^
+[rank6]:   File "/usr/local/lib/python3.12/dist-packages/torch/optim/adam.py", line 181, in _init_group
+[rank6]:     state["exp_avg_sq"] = torch.zeros_like(
+[rank6]:                           ^^^^^^^^^^^^^^^^^
+[rank6]: torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 140.00 MiB. GPU 6 has a total capacity of 79.25 GiB of which 82.94 MiB is free. Including non-PyTorch memory, this process has 79.16 GiB memory in use. Of the allocated memory 78.02 GiB is allocated by PyTorch, and 24.65 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[rank0]:[W103 14:18:28.346107477 ProcessGroupNCCL.cpp:1534] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+  0%|          | 0/3948 [02:06<?, ?it/s]                                                                                                                                                                
+W0103 14:18:35.754000 1996628 torch/distributed/elastic/multiprocessing/api.py:906] Sending process 1996699 closing signal SIGTERM
+W0103 14:18:35.756000 1996628 torch/distributed/elastic/multiprocessing/api.py:906] Sending process 1996700 closing signal SIGTERM
+W0103 14:18:35.756000 1996628 torch/distributed/elastic/multiprocessing/api.py:906] Sending process 1996701 closing signal SIGTERM
+W0103 14:18:35.757000 1996628 torch/distributed/elastic/multiprocessing/api.py:906] Sending process 1996702 closing signal SIGTERM
+W0103 14:18:35.758000 1996628 torch/distributed/elastic/multiprocessing/api.py:906] Sending process 1996704 closing signal SIGTERM
+W0103 14:18:35.758000 1996628 torch/distributed/elastic/multiprocessing/api.py:906] Sending process 1996705 closing signal SIGTERM
+W0103 14:18:35.759000 1996628 torch/distributed/elastic/multiprocessing/api.py:906] Sending process 1996706 closing signal SIGTERM
+E0103 14:18:37.691000 1996628 torch/distributed/elastic/multiprocessing/api.py:880] failed (exitcode: 1) local_rank: 4 (pid: 1996703) of binary: /usr/bin/python
+Traceback (most recent call last):
+  File "/usr/local/bin/torchrun", line 7, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 357, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/distributed/run.py", line 936, in main
+    run(args)
+  File "/usr/local/lib/python3.12/dist-packages/torch/distributed/run.py", line 927, in run
+    elastic_launch(
+  File "/usr/local/lib/python3.12/dist-packages/torch/distributed/launcher/api.py", line 151, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/distributed/launcher/api.py", line 288, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+train_depthlm.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2026-01-03_14:18:35
+  host      : dgx13.its.albany.edu
+  rank      : 4 (local_rank: 4)
+  exitcode  : 1 (pid: 1996703)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================

@@ -1,0 +1,17 @@
+Index,Parent_File,Ground_Truth,Prediction,Delta1_Met,Raw_Output
+0,rgb/corridor_01.png,1.68230716411078,1.04,0,<think>The target is at the Y degree ring...</think><answer>1.04</answer>
+1,rgb/corridor_02.png,3.23949034866865,1.35,0,<think>The target is at the Y degree ring...</think><answer>1.35</answer>
+2,rgb/corridor_03.png,3.850614175631342,2.63,0,<think>The target is at the Y degree ring...</think><answer>2.63</answer>
+3,rgb/corridor_04.png,6.728465705348287,1.93,0,<think>The target is at the Y degree ring...</think><answer>1.93</answer>
+4,rgb/corridor_05.png,2.571908140688182,1.42,0,<think>The target is at the Y degree ring...</think><answer>1.42</answer>
+5,rgb/corridor_06.png,1.7418173495078961,1.34,0,<think>The target is at the Y degree ring...</think><answer>1.34</answer>
+6,rgb/corridor_07.png,6.073090714885176,1.52,0,<think>The target is at the Y degree ring...</think><answer>1.52</answer>
+7,rgb/corridor_08.png,7.325856412603952,1.83,0,<think>The target is at the Y degree ring...</think><answer>1.83</answer>
+8,rgb/corridor_09.png,1.358815899900816,1.5,1,<think>The target is at the Y degree ring...</think><answer>1.5</answer>
+9,rgb/corridor_10.png,2.436102845807583,1.67,0,<think>The target is at the Y degree ring...</think><answer>1.67</answer>
+10,rgb/factory_01.png,1.050583657587548,1.24,1,<think>The target is at the Y degree ring...</think><answer>1.24</answer>
+11,rgb/factory_02.png,5.3521019302662705,1.72,0,<think>The target is at the Y degree ring...</think><answer>1.72</answer>
+12,rgb/factory_03.png,3.628595407034409,2.3,0,<think>The target is at the Y degree ring...</think><answer>2.3</answer>
+13,rgb/factory_04.png,8.3588921950103,1.52,0,<think>The target is at the Y degree ring...</think><answer>1.52</answer>
+14,rgb/factory_05.png,3.628595407034409,1.85,0,<think>The target is at the Y degree ring...</think><answer>1.85</answer>
+15,rgb/factory_06.png,1.478599221789883,1.37,1,<think>The target is at the Y degree ring...</think><answer>1.37</answer>

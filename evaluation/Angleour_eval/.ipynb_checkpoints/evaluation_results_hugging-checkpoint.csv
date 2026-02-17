@@ -1,0 +1,18 @@
+image,ground_truth,prediction,is_correct,delta1_score,raw_output
+/mnt/dgx_lab/datasets/IbimsOG/corridor_01_p000_std.jpg,2.418,1.37,False,0.0,<think> The point is around 1.37 meters away from the camera. </think>  <answer> 1.37 </answer>
+/mnt/dgx_lab/datasets/IbimsOG/corridor_01_p001_std.jpg,2.293,1.57,False,0.0,<think> The point is around 1.57 meters away from the camera. </think>  <answer> 1.57 </answer>
+/mnt/dgx_lab/datasets/IbimsOG/corridor_01_p002_std.jpg,6.822,2.7,False,0.0,<think> The point is around 2.70 meters away from the camera. </think>  <answer> 2.70 </answer>
+/mnt/dgx_lab/datasets/IbimsOG/corridor_01_p003_std.jpg,7.066,2.38,False,0.0,<think> The point is around 2.38 meters away from the camera. </think>  <answer> 2.38 </answer>
+/mnt/dgx_lab/datasets/IbimsOG/corridor_01_p004_std.jpg,4.808,2.7,False,0.0,<think> The point is around 2.70 meters away from the camera. </think>  <answer> 2.70 </answer>
+/mnt/dgx_lab/datasets/IbimsOG/corridor_01_p005_std.jpg,15.002,10.7,False,0.0,<think> The point is around 10. the meter away from the camera. </think>  <answer> 10.70 </answer>
+/mnt/dgx_lab/datasets/IbimsOG/corridor_01_p006_std.jpg,8.268,2.7,False,0.0,<think> The point is around 2.70 meters away from the camera. </think>  <answer> 2.70 </answer>
+/mnt/dgx_lab/datasets/IbimsOG/corridor_01_p007_std.jpg,2.087,1.38,False,0.0,<think> The point is around 1.38 meters away from the camera. </think>  <answer> 1.38 </answer>
+/mnt/dgx_lab/datasets/IbimsOG/corridor_01_p008_std.jpg,5.484,5.7,True,1.0,<think> The point is around 5.70 meters away from the camera. </think>  <answer> 5.70 </answer>
+/mnt/dgx_lab/datasets/IbimsOG/corridor_01_p009_std.jpg,2.293,1.17,False,0.0,<think> The point is around 1.17 meters away from the camera. </think>  <answer> 1.17 </answer>
+/mnt/dgx_lab/datasets/IbimsOG/corridor_01_p010_std.jpg,4.337,3.27,False,0.0,<think> The point is around 3.27 meters away from the camera. </think>  <answer> 3.27 </answer>
+/mnt/dgx_lab/datasets/IbimsOG/corridor_01_p011_std.jpg,8.295,2.7,False,0.0,<think> The point is around 2.70 meters away from the camera. </think>  <answer> 2.70 </answer>
+/mnt/dgx_lab/datasets/IbimsOG/corridor_01_p012_std.jpg,1.752,1.0,False,0.0,<think> The point is around 1.00 meters away from the camera. </think>  <answer> 1.00 </answer>
+/mnt/dgx_lab/datasets/IbimsOG/corridor_01_p013_std.jpg,1.815,1.17,False,0.0,<think> The point is around 1.17 meters away from the camera. </think>  <answer> 1.17 </answer>
+/mnt/dgx_lab/datasets/IbimsOG/corridor_01_p014_std.jpg,2.085,1.37,False,0.0,<think> The point is around 1.37 meters away from the camera. </think>  <answer> 1.37 </answer>
+/mnt/dgx_lab/datasets/IbimsOG/corridor_01_p015_std.jpg,11.437,23.0,False,0.0,"<think> The point is around 23. the meter number only, without the unit) in <answer> </answer>"
+/mnt/dgx_lab/datasets/IbimsOG/corridor_01_p016_std.jpg,8.261,2.3,False,0.0,<think> The point is around 2.30 meters away from the camera. </think>  <answer> 2.30 </answer>

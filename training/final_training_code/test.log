@@ -1,0 +1,56 @@
+/usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+W0121 12:02:29.567000 388217 torch/distributed/run.py:803] 
+W0121 12:02:29.567000 388217 torch/distributed/run.py:803] *****************************************
+W0121 12:02:29.567000 388217 torch/distributed/run.py:803] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0121 12:02:29.567000 388217 torch/distributed/run.py:803] *****************************************
+[0] Script started, PID=388327
+[1] Importing torch...
+[0] Script started, PID=388330
+[1] Importing torch...
+[0] Script started, PID=388329
+[1] Importing torch...
+[0] Script started, PID=388328
+[1] Importing torch...
+[0] Script started, PID=388331
+[1] Importing torch...
+/usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+[2] Torch version: 2.9.0a0+50eac811a6.nv25.09
+[3] CUDA available: True
+[4] CUDA devices: 5
+[5] Rank 4/5, Local Rank 4
+[2] Torch version: 2.9.0a0+50eac811a6.nv25.09
+[2] Torch version: 2.9.0a0+50eac811a6.nv25.09
+[2] Torch version: 2.9.0a0+50eac811a6.nv25.09
+[2] Torch version: 2.9.0a0+50eac811a6.nv25.09
+[6] Rank 4 using GPU 4: NVIDIA A100-SXM4-80GB
+[7] Rank 4 - All checks passed!
+[3] CUDA available: True
+[3] CUDA available: True
+[3] CUDA available: True
+[3] CUDA available: True
+[4] CUDA devices: 5
+[5] Rank 0/5, Local Rank 0
+[4] CUDA devices: 5
+[5] Rank 3/5, Local Rank 3
+[4] CUDA devices: 5
+[5] Rank 1/5, Local Rank 1
+[4] CUDA devices: 5
+[5] Rank 2/5, Local Rank 2
+[6] Rank 0 using GPU 0: NVIDIA A100-SXM4-80GB
+[7] Rank 0 - All checks passed!
+[6] Rank 3 using GPU 3: NVIDIA A100-SXM4-80GB
+[7] Rank 3 - All checks passed!
+[6] Rank 2 using GPU 2: NVIDIA A100-SXM4-80GB
+[7] Rank 2 - All checks passed!
+[6] Rank 1 using GPU 1: NVIDIA A100-SXM4-80GB
+[7] Rank 1 - All checks passed!

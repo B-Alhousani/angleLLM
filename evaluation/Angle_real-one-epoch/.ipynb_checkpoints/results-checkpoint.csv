@@ -1,0 +1,19 @@
+Index,Parent_File,Ground_Truth,Prediction,Delta1_Met,Raw_Output
+0,rgb/corridor_01.png,1.68230716411078,1.07,0,<think> The point has an angle of around 1.07 degrees. </think>  <answer> 1.07 </answer>
+1,rgb/corridor_02.png,3.23949034866865,1.85,0,<think> The point has an angle of around 1.85 degrees. </think>  <answer> 1.85 </answer>
+2,rgb/corridor_03.png,3.850614175631342,3.4,1,<think> The point has an angle of around 3.40 degrees. </think>  <answer> 3.40 </answer>
+3,rgb/corridor_04.png,6.728465705348287,3.04,0,<think> The point has an angle of around 3.04 degrees. </think>  <answer> 3.04 </answer>
+4,rgb/corridor_05.png,2.571908140688182,3.7,0,<think> The point has an angle of around 3.70 degrees. </think>  <answer> 3.70 </answer>
+5,rgb/corridor_06.png,1.7418173495078961,1.54,1,<think> The point has an angle of around 1.54 degrees. </think>  <answer> 1.54 </answer>
+6,rgb/corridor_07.png,6.073090714885176,1.5,0,<think> The point has an angle of around 1.50 degrees. </think>  <answer> 1.50 </answer>
+7,rgb/corridor_08.png,7.325856412603952,1.7,0,<think> The point has an angle of around 1.70 degrees. </think>  <answer> 1.70 </answer>
+8,rgb/corridor_09.png,1.358815899900816,1.56,1,<think> The point has an angle of around 1.56 degrees. </think>  <answer> 1.56 </answer>
+9,rgb/corridor_10.png,2.436102845807583,1.37,0,<think> The point has an angle of around 1.37 degrees. </think>  <answer> 1.37 </answer>
+10,rgb/factory_01.png,1.050583657587548,1.67,0,<think> The point has an angle of around 1.67 degrees. </think>  <answer> 1.67 </answer>
+11,rgb/factory_02.png,5.3521019302662705,2.35,0,<think> The point has an angle of around 2.35 degrees. </think>  <answer> 2.35 </answer>
+12,rgb/factory_03.png,3.628595407034409,1.27,0,<think> The point has an angle of around 1.27 degrees. </think>  <answer> 1.27 </answer>
+13,rgb/factory_04.png,8.3588921950103,1.07,0,<think> The point has an angle of around 1.07 degrees. </think>  <answer> 1.07 </answer>
+14,rgb/factory_05.png,3.628595407034409,1.85,0,<think> The point has an angle of around 1.85 degrees. </think>  <answer> 1.85 </answer>
+15,rgb/factory_06.png,1.478599221789883,1.65,1,<think> The point has an angle of around 1.65 degrees. </think>  <answer> 1.65 </answer>
+16,rgb/factory_07.png,2.631418326085298,1.6,0,<think> The point has an angle of around 1.60 degrees. </think>  <answer> 1.60 </answer>
+17,rgb/factory_08.png,1.606775005722133,1.02,0,<think> The point has an angle of around 1.02 degrees. </think>  <answer> 1.02 </answer>

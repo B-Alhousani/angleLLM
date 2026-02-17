@@ -1,0 +1,9 @@
+Index,Image_Name,Ground_Truth,Prediction_Raw,Delta1_Score,Full_Model_Output
+0,rgb/corridor_01.png,1.68230716411078,1.38,1.0,<think> The point is around 1.38 meters away from the camera. </think>  <answer> 1.38 </answer>
+1,rgb/corridor_02.png,3.23949034866865,2.78,1.0,<think> The point is around 2.78 meters away from the camera. </think>  <answer> 2.78 </answer>
+2,rgb/corridor_03.png,3.850614175631342,1.08,0.0,<think> The point is around 1.08 meters away from the camera. </think>  <answer> 1.08 </answer>
+3,rgb/corridor_04.png,6.728465705348287,13.08,0.0,<think> The point is around 13.08 meters away from the camera. </think>  <answer> 13.08 </answer>
+4,rgb/corridor_05.png,2.571908140688182,2.30,1.0,<think> The point is around 2.30 meters away from the camera. </think>  <answer> 2.30 </answer>
+5,rgb/corridor_06.png,1.7418173495078961,1.88,1.0,<think> The point is around 1.88 meters away from the camera. </think>  <answer> 1.88 </answer>
+6,rgb/corridor_07.png,6.073090714885176,3.48,0.0,<think> The point is around 3.48 meters away from the camera. </think>  <answer> 3.48 </answer>
+7,rgb/corridor_08.png,7.325856412603952,6.30,1.0,<think> The point is around 6.30 meters away from the camera. </think>  <answer> 6.30 </answer>
