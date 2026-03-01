@@ -2,3 +2,5 @@ examples/
 *.jpg
 images/
 *.png
+.ipynb_checkpoints
+__pycache__/

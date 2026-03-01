@@ -3,6 +3,8 @@ import csv
 import os
 import re
 import torch
+import json
+import math
 from tqdm import tqdm
 from transformers import (
     AutoProcessor,
@@ -11,7 +13,7 @@ from transformers import (
 )
 
 # Import OFFICIAL loader to get the correct visual cues
-from utils.datasets import dataset_eval
+from utils.angle_dataset import DatasetEval
 
 # --- HELPER: Extract Float from <answer> tags ---
 def extract_value(text):
@@ -40,7 +42,8 @@ def convert_example_pixtral(example, image_before_text=None):
         content = [{"type": "image", "image": img} for img in images] + [{"type": "text", "content": problem}] if image_before_text else \
                   [{"type": "text", "content": problem}] + [{"type": "image", "image": img} for img in images]
     else:
-        image = example.get("image")
+        # UPDATED: Fallback to "vlm_image"
+        image = example.get("image") or example.get("vlm_image")
         content = [{"type": "image", "image": image}, {"type": "text", "content": problem}] if image_before_text else \
                   [{"type": "text", "content": problem}, {"type": "image", "image": image}]
     
@@ -57,17 +60,13 @@ def convert_example_qwen(example, image_before_text=None):
         images = example.get("images")
         content = [{"type": "image", "image": img} for img in images] + [{"type": "text", "text": problem}]
     else:
-        image = example.get("image")
+        # UPDATED: Fallback to "vlm_image"
+        image = example.get("image") or example.get("vlm_image")
         content = [{"type": "image", "image": image}, {"type": "text", "text": problem}]
         
     messages.append({"role": "user", "content": content})
     example["messages"] = messages
     return example
-
-
-import json # <--- Add this import at the top
-import json
-import math
 
 def main(args):
     model_path = args.model_path
@@ -75,7 +74,7 @@ def main(args):
     json_path = args.json_path
     
     # --- SETUP OUTPUT ---
-    output_base_dir = "/mnt/dgx_lab/evaluation/depthLM-one-epoch/"
+    output_base_dir = "/mnt/dgx_lab/evaluation-with-red/angle-prompt-2/"
     output_img_dir = os.path.join(output_base_dir, "images")
     output_csv_path = os.path.join(output_base_dir, "results.csv")
     
@@ -124,7 +123,7 @@ def main(args):
     model.eval()
 
     # --- LOAD DATASET ---
-    dataset = dataset_eval(json_path, img_folder, normalized_focal_length=750.0)
+    dataset = DatasetEval(json_path, img_folder)
     print(f"Dataset expanded size: {len(dataset)} samples.")
 
     # --- EVALUATION LOOP ---
@@ -152,7 +151,8 @@ def main(args):
                         processor.apply_chat_template(convert_example_qwen(msg)["messages"], tokenize=False, add_generation_prompt=True)
                         for msg in batch_messages
                     ]
-                    image_inputs = [x["images"] if "images" in x else x["image"] for x in batch_messages]
+                    # UPDATED: Fallback to "vlm_image" in list comprehension
+                    image_inputs = [x["images"] if "images" in x else (x.get("image") or x.get("vlm_image")) for x in batch_messages]
                     inputs = processor(text=text_inputs, images=image_inputs, padding=True, return_tensors="pt").to("cuda")
                 if "image_sizes" in inputs: inputs.pop("image_sizes")
 
@@ -184,6 +184,9 @@ def main(args):
                     try:
                         if "image" in msg_data:
                             msg_data["image"].save(img_save_path)
+                        # UPDATED: Added fallback clause for saving "vlm_image"
+                        elif "vlm_image" in msg_data:
+                            msg_data["vlm_image"].save(img_save_path)
                         elif "images" in msg_data and len(msg_data["images"]) > 0:
                             msg_data["images"][0].save(img_save_path)
                     except Exception as e:
